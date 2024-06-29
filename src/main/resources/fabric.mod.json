@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "autostopmod",
+  "version": "${version}",
+  "name": "AutostopMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/jakob/AutostopMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/autostopmod/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "de.randomgamer.autostopmod.client.AutostopModClient"
+    ],
+    "main": [
+      "de.randomgamer.autostopmod.main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

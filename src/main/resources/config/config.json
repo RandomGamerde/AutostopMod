@@ -1,0 +1,5 @@
+{
+  "webhookUrl": "YOUR_WEBHOOK_URL",
+  "checkIntervalSeconds": 10,
+  "stopIntervalMinutes": 10
+}
